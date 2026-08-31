@@ -33,3 +33,13 @@ public interface OperacoesDoistipos<T> {
 
     T calcular(T a, T b);
 }
+
+## OperacoesDoistipos
+
+Essa interface recebe **dois valores do mesmo tipo** e retorna um resultado do mesmo tipo.
+
+```java
+public interface OperacoesDoistipos<T> {
+
+    T calcular(T a, T b);
+}
